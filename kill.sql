@@ -21,3 +21,6 @@ order by case when nt_username = 'priorityuser' then 1 else 2 end,
 go
 --kill 116 --go -- exec tran_name go
 --'User does not have permission to use the KILL statement.'
+        
+-- INSERT INTO dbo.TableName output inserted. * SELECT * FROM 
+-- select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = 'TableName'
