@@ -1,5 +1,6 @@
 --select * from vis_columns where column_name like '%xxxx%'
 
+-- SQL processes:
 select  spid,
         blocked,
         cpu,
